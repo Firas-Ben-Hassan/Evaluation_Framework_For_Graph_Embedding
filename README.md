@@ -21,11 +21,7 @@
 [[Python]](https://github.com/aditya-grover/node2vec)
 [[Python]](https://github.com/apple2373/node2vec) 
 [[Python]](https://github.com/PFE-Passau/Graph_Embeddings)
-[[Dataset]](Cora, 
-Zachary’s Karate Club,
-BlogCatalog,
-Wikipedia,
-PPI)
+*datasets(Cora,Zachary’s Karate Club,BlogCatalog,Wikipedia,PPI)
 
 
 
