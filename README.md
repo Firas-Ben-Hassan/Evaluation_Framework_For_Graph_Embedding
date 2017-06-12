@@ -56,7 +56,7 @@ datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 dataset (Cora)
 
 **Paper2vec**
-[[Combining Graph and Text Information for Scientiﬁc Paper Representation]] (https://researchweb.iiit.ac.in/~soumyajit.ganguly/papers/P2v_1.pdf)
+[Combining Graph and Text Information for Scientiﬁc Paper Representation](https://researchweb.iiit.ac.in/~soumyajit.ganguly/papers/P2v_1.pdf)
 
 **Glove**
 [global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719),
