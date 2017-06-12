@@ -38,32 +38,39 @@ Network Compression :
  Social Networks Datasets : 
  
 -KARATE : 
+
 Zachary’s karate network is awell-known social network of a university karate club
 Social network of friendships between 34 members of a karate club at a US university in the 1970 
 
 -BLOGCATALOG :
+
  This is a network of social relationships of the bloggers listed on the BlogCatalog website. The labels represent blogger interests inferred through the metadata provided by the bloggers.
  The network has 10,312 nodes, 333,983 edges and 39 different labels.
  
 -LiveJournal:
+
 LiveJournal is a free on-line blogging community where users declare friendship each other. LiveJournal also allows users form a group which other members can then join. We consider such user-defined groups as ground-truth communities. We provide the LiveJournal friendship social network and ground-truth communities. 
 
 Collaboration Networks Datasets : 
 
-Cora , 
+Cora:
+
 The Cora dataset consists of Machine Learning papers
  The papers were selected in a way such that in the final corpus every paper cites or is cited by at least one other paper. There are 2708 papers in the whole corpus. 
  
--Wiki , 
+-Wiki:
+
 Wiki contains 2, 405 documents from 19 classes and 17, 981 links between them. 
 
--Citeseer ,
+-Citeseer:
+
 Citeseer contains 3, 312 publications from six classes and 4, 732 links between them. Similar to Cora, the links are citation relationships between the documents and each paper is described by a binary vector of 3, 703 dimensions. 
 
 Biology  Networks Dataset : 
 
 
 -PROTEIN-PROTEIN INTERACTIONS (PPI) : 
+
 This is a network of biological interactions between proteins in humans. This network has 3,890 nodes and 38,739 edges.
 
 
