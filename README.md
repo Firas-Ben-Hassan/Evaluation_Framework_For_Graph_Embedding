@@ -123,7 +123,7 @@ datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 dataset (Cora)
 
 **Paper2vec**
-[Paper2vec ( combined ):: Combining Graph and Text Information for Scientiﬁc Paper Representation](https://researchweb.iiit.ac.in/~soumyajit.ganguly/papers/P2v_1.pdf),
+[Paper2vec ( combined ): Combining Graph and Text Information for Scientiﬁc Paper Representation](https://researchweb.iiit.ac.in/~soumyajit.ganguly/papers/P2v_1.pdf),
 
 
 [[arxiv]](https://arxiv.org/abs/1703.06587)
@@ -140,7 +140,7 @@ dataset (Cora)
 
 [Grarep: Learning graph representations with global structural information](http://dl.acm.org/citation.cfm?id=2806512), 
 
-[[Matlab]](https://github.com/ShelsonCao/GraRep)
+[[Matlab]](https://github.com/ShelsonCao/GraRep),
 [[Datasets]](https://github.com/ShelsonCao/GraRep/blob/master/code/core/GetCoOccMatFromGraph.m)
 
 
