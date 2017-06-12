@@ -1,4 +1,4 @@
-# Evaluation-Framework-For-Graph-Embeddings
+# Evaluation Framework For Graph Embeddings
 
                                    Deep Neural Networks Based Approaches for Graph Embeddings
 
