@@ -11,7 +11,7 @@
 
 **Node2vec**
 
-[node2vec: Scalable Feature Learning for Networks](http://dl.acm.org/citation.cfm?id=2939672.2939754), KDD'16
+[node2vec: Scalable Feature Learning for Networks](http://dl.acm.org/citation.cfm?id=2939672.2939754), 
 
 [[arxiv]](https://arxiv.org/abs/1607.00653) [[Python]](https://github.com/aditya-grover/node2vec)
 [[Python]](https://github.com/apple2373/node2vec) [[Python]](https://github.com/PFE-Passau/Graph_Embeddings)
@@ -29,11 +29,11 @@
 [[arxiv]](https://arxiv.org/abs/1503.03578) [[C++]](https://github.com/tangjianpku/LINE)[[Python]](https://github.com/PFE-Passau/Graph_Embeddings)
 
 **Doc2vec**
-[DistributedRepresentationsofSentencesandDocument](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719)
+[DistributedRepresentationsofSentencesandDocument](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719),
 [[arxiv]] (https://arxiv.org/abs/1607.05368) [[Python]](https://github.com/PFE-Passau/Doc2Vec)
 
 **Glove**
-[global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719)
+[global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719),
 [[arxiv]] () [[Python]](https://github.com/jroakes/glove-to-word2vec)
 
 
