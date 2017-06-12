@@ -115,7 +115,7 @@ datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 
 **Doc2vec**
-[Doc2vec: DistributedRepresentationsofSentencesandDocument](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719),
+[Doc2vec: Distributed Representations of Sentences and Document](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719),
 
 [[arxiv]](https://arxiv.org/abs/1607.05368)
 [[Python]](https://github.com/PFE-Passau/Doc2Vec),
