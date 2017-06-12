@@ -61,7 +61,7 @@ dataset (Cora)
 
 
 [[arxiv]](https://arxiv.org/abs/1703.06587)
-[[Python]](https://github.com/asxzy/paper2vec-gensim)
+[[Python]](https://github.com/asxzy/paper2vec-gensim),
 dataset (Cora)
 
 **Glove**
