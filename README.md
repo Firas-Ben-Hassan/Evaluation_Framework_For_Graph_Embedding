@@ -81,7 +81,7 @@ This is a network of biological interactions between proteins in humans. This ne
 
 **Node2vec**
 
-[node2vec: Scalable Feature Learning for Networks](http://dl.acm.org/citation.cfm?id=2939672.2939754), 
+[node2vec (Network-only): Scalable Feature Learning for Networks](http://dl.acm.org/citation.cfm?id=2939672.2939754), 
 
 [[arxiv]](https://arxiv.org/abs/1607.00653) 
 [[Python]](https://github.com/aditya-grover/node2vec)
@@ -94,7 +94,7 @@ datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 
 **DeepWalk**
 
-[DeepWalk: Online Learning of Social Representations](http://dl.acm.org/citation.cfm?id=2623732),
+[DeepWalk (Network-only): Online Learning of Social Representations](http://dl.acm.org/citation.cfm?id=2623732),
 
 [[arxiv]](https://arxiv.org/abs/1403.6652) 
 [[Python]](https://github.com/phanein/deepwalk)
@@ -106,7 +106,7 @@ datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 
 **LINE**
 
-[LINE: Large-scale information network embedding](http://dl.acm.org/citation.cfm?id=2741093), 
+[LINE(Network-only): Large-scale information network embedding](http://dl.acm.org/citation.cfm?id=2741093), 
 
 [[arxiv]](https://arxiv.org/abs/1503.03578)
 [[C++]](https://github.com/tangjianpku/LINE)
@@ -115,7 +115,7 @@ datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 
 **Doc2vec**
-[Doc2vec: Distributed Representations of Sentences and Document](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719),
+[Doc2vec (content-only ): Distributed Representations of Sentences and Document](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719),
 
 [[arxiv]](https://arxiv.org/abs/1607.05368)
 [[Python]](https://github.com/PFE-Passau/Doc2Vec),
@@ -123,7 +123,7 @@ datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 dataset (Cora)
 
 **Paper2vec**
-[Paper2vec: Combining Graph and Text Information for Scientiﬁc Paper Representation](https://researchweb.iiit.ac.in/~soumyajit.ganguly/papers/P2v_1.pdf),
+[Paper2vec ( combined ):: Combining Graph and Text Information for Scientiﬁc Paper Representation](https://researchweb.iiit.ac.in/~soumyajit.ganguly/papers/P2v_1.pdf),
 
 
 [[arxiv]](https://arxiv.org/abs/1703.06587)
@@ -131,7 +131,7 @@ dataset (Cora)
 dataset (Cora)
 
 **Glove**
-[Glove: global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719),
+[Glove (content-only ): global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719),
 
 [[Python]](https://github.com/jroakes/glove-to-word2vec)
 
@@ -146,7 +146,7 @@ dataset (Cora)
 
 **TADW**
 
-[TADW: Network Representation Learning with Rich Text Information](http://dl.acm.org/citation.cfm?id=2832542), 
+[TADW ( combined ): Network Representation Learning with Rich Text Information](http://dl.acm.org/citation.cfm?id=2832542), 
 
 [[paper]](https://www.ijcai.org/Proceedings/15/Papers/299.pdf) 
 [[Matlab]](https://github.com/thunlp/tadw),
@@ -156,7 +156,7 @@ Datasets (Cora,  Citeseer,  Wikipedia)
 
 **planetoid**
 
-Revisiting Semi-supervised Learning with Graph Embeddings, 
+[Planetoid: (Network-only)]Revisiting Semi-supervised Learning with Graph Embeddings, 
 
 [[arxiv]](https://arxiv.org/abs/1603.08861) 
 [[Python]](https://github.com/kimiyoung/planetoid),
@@ -166,14 +166,14 @@ Datasets (Cora,  Citeseer,  Wikipedia)
 
 **DNGR**
 
-[Deep Neural Networks for Learning Graph Representations](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12423),
+[DNGR: (Network-only) Deep Neural Networks for Learning Graph Representations](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12423),
 
 [[Matlab]](https://github.com/ShelsonCao/DNGR)
 [[Python Keras]](https://github.com/MdAsifKhan/DNGR-Keras),
 [[Datasets]](https://github.com/MdAsifKhan/DNGR-Keras/blob/master/wine_network.mat)
 
 **ComplEx**
-[Complex Embeddings for Simple Link Prediction](http://dl.acm.org/citation.cfm?id=3045609),
+[ComplEx :(Network-only)Complex Embeddings for Simple Link Prediction](http://dl.acm.org/citation.cfm?id=3045609),
 
 [[arxiv]](https://arxiv.org/abs/1606.06357) 
 [[Python]](https://github.com/ttrouill/complex),
