@@ -6,13 +6,9 @@
                                    Deep Neural Networks Based Approaches for Graph Embeddings
 
                                                    By : Firas BEN HASSAN 
-                                                 Supervisor : Jörg Schlötterer
-                                                 
+                                                 Supervisor : Jörg Schlötterer                           
                                                                                            
-                    ![alt text](https://qph.ec.quoracdn.net/main-qimg-0102f6e770d2ce1f45bd7066524b8f70)
-                                                 
-
-
+                                                                 
 # Paper References with the implementation(s) and the dataset(s)
 
 **Node2vec**
