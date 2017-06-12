@@ -128,7 +128,8 @@ dataset (Cora)
 
 [[arxiv]](https://arxiv.org/abs/1703.06587)
 [[Python]](https://github.com/asxzy/paper2vec-gensim),
-dataset (Cora)
+
+ dataset (Cora)
 
 **Glove**
 [Glove (content-only ): global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719),
