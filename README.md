@@ -28,11 +28,14 @@
 
 [[arxiv]](https://arxiv.org/abs/1503.03578) [[C++]](https://github.com/tangjianpku/LINE)[[Python]](https://github.com/PFE-Passau/Graph_Embeddings)
 
-**PTE**
+**Doc2vec**
+[DistributedRepresentationsofSentencesandDocument](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719)
+[[arxiv]] (https://arxiv.org/abs/1607.05368) [[Python]](https://github.com/PFE-Passau/Doc2Vec)
 
-[PTE: Predictive Text Embedding through Large-scale Heterogeneous Text Networks](http://dl.acm.org/citation.cfm?id=2783307), 
+**Glove**
+[global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719)
+[[arxiv]] () [[Python]](https://github.com/jroakes/glove-to-word2vec)
 
-[[C++]](https://github.com/mnqu/PTE)
 
 **GraRep**
 
@@ -40,11 +43,6 @@
 
 [[Matlab]](https://github.com/ShelsonCao/GraRep)
 
-**KB2E**
-
-[Learning Entity and Relation Embeddings for Knowledge Graph Completion](http://dl.acm.org/citation.cfm?id=2886624), 
-
-[[paper]](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/aaai2015_transr.pdf) [[C++]](https://github.com/thunlp/KB2E)
 
 **TADW**
 
@@ -66,41 +64,13 @@ Revisiting Semi-supervised Learning with Graph Embeddings,
 
 [[Matlab]](https://github.com/ShelsonCao/DNGR) [[Python Keras]](https://github.com/MdAsifKhan/DNGR-Keras)
 
-**HolE**
-
-[Holographic Embeddings of Knowledge Graphs](http://dl.acm.org/citation.cfm?id=3016172),
-
-[[Python-sklearn]](https://github.com/mnick/holographic-embeddings) [[Python-sklearn2]](https://github.com/mnick/scikit-kge)
-
-**ComplEx**
 
 [Complex Embeddings for Simple Link Prediction](http://dl.acm.org/citation.cfm?id=3045609),
 
 [[arxiv]](https://arxiv.org/abs/1606.06357) [[Python]](https://github.com/ttrouill/complex)
 
-**MMDW**
 
-Max-Margin DeepWalk: Discriminative Learning of Network Representation, 
 
-[[paper]](http://nlp.csai.tsinghua.edu.cn/~lzy/publications/ijcai2016_mmdw.pdf)  [[Java]](https://github.com/thunlp/MMDW)
-
-**GCN**
-
-Semi-Supervised Classification with Graph Convolutional Networks, 
-
-[[arxiv]](https://arxiv.org/abs/1609.02907)  [[Python Tensorflow]](https://github.com/tkipf/gcn)
-
-**CANE**
-
-CANE: Context-Aware Network Embedding for Relation Modeling, 
-
-[[paper]](http://www.thunlp.org/~tcc/publications/acl2017_cane.pdf) [[Python]](https://github.com/thunlp/cane)
-
-**TransNet**
-
-TransNet: Translation-Based Network Representation Learning for Social Relation Extraction,
-
-[[Python Tensorflow]](https://github.com/thunlp/TransNet)
 
 **GEM**
 
