@@ -80,7 +80,7 @@ dataset (Cora)
 [Grarep: Learning graph representations with global structural information](http://dl.acm.org/citation.cfm?id=2806512), 
 
 [[Matlab]](https://github.com/ShelsonCao/GraRep)
-dataset
+[[Datasets]](https://github.com/ShelsonCao/GraRep/blob/master/code/core/GetCoOccMatFromGraph.m)
 
 
 **TADW**
@@ -108,13 +108,15 @@ Datasets (Cora,  Citeseer,  Wikipedia)
 [Deep Neural Networks for Learning Graph Representations](http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12423),
 
 [[Matlab]](https://github.com/ShelsonCao/DNGR)
-[[Python Keras]](https://github.com/MdAsifKhan/DNGR-Keras)
+[[Python Keras]](https://github.com/MdAsifKhan/DNGR-Keras),
+[[Datasets]](https://github.com/MdAsifKhan/DNGR-Keras/blob/master/wine_network.mat)
 
 **ComplEx**
 [Complex Embeddings for Simple Link Prediction](http://dl.acm.org/citation.cfm?id=3045609),
 
 [[arxiv]](https://arxiv.org/abs/1606.06357) 
-[[Python]](https://github.com/ttrouill/complex)
+[[Python]](https://github.com/ttrouill/complex),
+[[Datasets]](https://github.com/ttrouill/complex/tree/master/datasets)
 
 
 
