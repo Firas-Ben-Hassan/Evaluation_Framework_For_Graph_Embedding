@@ -1,10 +1,12 @@
 # Evaluation Framework For Graph Embeddings
+ 
+                                                       Uni of Passau 
 
                                    Deep Neural Networks Based Approaches for Graph Embeddings
 
-
                                                    By : Firas BEN HASSAN 
                                                  Supervisor : Jörg Schlötterer
+                                                 
 
 
 # Paper References with the implementation(s) and the dataset(s)
