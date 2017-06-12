@@ -53,6 +53,7 @@ datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 
 [[arxiv]](https://arxiv.org/abs/1607.05368)
 [[Python]](https://github.com/PFE-Passau/Doc2Vec),
+
 dataset (Cora)
 
 **Paper2vec**
