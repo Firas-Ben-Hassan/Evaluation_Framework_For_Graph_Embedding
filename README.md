@@ -31,10 +31,46 @@ Network Compression :
 
  Network Compression Feder introduced the concept of network compression (graph simpliﬁcation) :
  For a graph G, they deﬁned a compression another graph GG  which has smaller number of edges. The goal was to store the network more efﬁciently and run graph analysis algorithms faster. They obtained the compression graph by partitioning the original graph into bipartite cliques and replacing them by trees, thus reducing the number of edges.
+ 
+ 
+ # 3-Tasks 
+ 
+ Social Networks Datasets : 
+ 
+KARATE : 
+Zachary’s karate network is awell-known social network of a university karate club
+Social network of friendships between 34 members of a karate club at a US university in the 1970 
+
+BLOGCATALOG :
+ This is a network of social relationships of the bloggers listed on the BlogCatalog website. The labels represent blogger interests inferred through the metadata provided by the bloggers.
+ The network has 10,312 nodes, 333,983 edges and 39 different labels.
+ 
+LiveJournal:
+LiveJournal is a free on-line blogging community where users declare friendship each other. LiveJournal also allows users form a group which other members can then join. We consider such user-defined groups as ground-truth communities. We provide the LiveJournal friendship social network and ground-truth communities. 
+
+Collaboration Networks Datasets : 
+
+Cora:
+The Cora dataset consists of Machine Learning papers
+ The papers were selected in a way such that in the final corpus every paper cites or is cited by at least one other paper. There are 2708 papers in the whole corpus. 
+ 
+Wiki: 
+Wiki contains 2, 405 documents from 19 classes and 17, 981 links between them. 
+
+Citeseer:
+Citeseer contains 3, 312 publications from six classes and 4, 732 links between them. Similar to Cora, the links are citation relationships between the documents and each paper is described by a binary vector of 3, 703 dimensions. 
+
+Biology  Networks Dataset : 
+
+
+PROTEIN-PROTEIN INTERACTIONS (PPI) : 
+This is a network of biological interactions between proteins in humans. This network has 3,890 nodes and 38,739 edges.
+
+
 
 
                                                                  
-# 3- Paper References with the implementation(s) and the dataset(s)
+# 4- Paper References with the implementation(s) and the dataset(s)
 
 **Node2vec**
 
