@@ -11,12 +11,31 @@
                                                  
 ![alt text](http://blog.convergeforimpact.com/wp-content/uploads/2014/11/nln-network-map.png)      
 
-# Abstract 
+#1- Abstract 
 
 Graphs, such as social networks, word co-occurrence networks, and communication networks, occur naturally in various real-world applications. Analyzing them yields insight into the structure of society, language, and different patterns of communication. Many approaches have been proposed to perform the analysis.
 Recently, methods which use the representation of graph nodes in vector space have gained traction from the research community.
+
+
+#2-Tasks 
+
+Node Classiﬁcation ,
+
+
+ Often in networks, a fraction of nodes are labeled. In social networks, labels may indicate interests, beliefs, or demographics. In language networks, a document may be labeled with topics or keywords, whereas the labels of entities in biology networks may be based on functionality. Due to various factors, labels may be unknown for large fractions of nodes. For example, in social networks many users do not provide their demographic information due to privacy concerns. Missing labels can be inferred using the labeled nodes and the links in the network. The task of predicting these missing labels is also known as node classiﬁcation. 
+ 
+Link Prediction ,
+
+Networks are constructed from the observed interactions between entities, which may be incomplete or inaccurate. The challenge often lies in identifying spurious interactions and predicting missing information. Link prediction refers to the task of predicting either missing interactions or links that may appear in the future in an evolving network. 
+
+Network Compression ,
+
+ Network Compression Feder introduced the concept of network compression (graph simpliﬁcation) :
+ For a graph G, they deﬁned a compression another graph GG  which has smaller number of edges. The goal was to store the network more efﬁciently and run graph analysis algorithms faster. They obtained the compression graph by partitioning the original graph into bipartite cliques and replacing them by trees, thus reducing the number of edges.
+
+
                                                                  
-# Paper References with the implementation(s) and the dataset(s)
+#3- Paper References with the implementation(s) and the dataset(s)
 
 **Node2vec**
 
