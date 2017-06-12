@@ -34,7 +34,8 @@
 
 **Glove**
 [global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719),
-[[arxiv]] () [[Python]](https://github.com/jroakes/glove-to-word2vec)
+
+[[Python]](https://github.com/jroakes/glove-to-word2vec)
 
 
 **GraRep**
