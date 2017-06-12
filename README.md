@@ -49,17 +49,22 @@ datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 
 **Doc2vec**
-[DistributedRepresentationsofSentencesandDocument](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719),
+[Doc2vec: DistributedRepresentationsofSentencesandDocument](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719),
 
 [[arxiv]](https://arxiv.org/abs/1607.05368)
 [[Python]](https://github.com/PFE-Passau/Doc2Vec),
 dataset (Cora)
 
 **Paper2vec**
-[Combining Graph and Text Information for Scientiﬁc Paper Representation](https://researchweb.iiit.ac.in/~soumyajit.ganguly/papers/P2v_1.pdf)
+[Paper2vec: Combining Graph and Text Information for Scientiﬁc Paper Representation](https://researchweb.iiit.ac.in/~soumyajit.ganguly/papers/P2v_1.pdf),
+
+
+[[arxiv]](https://arxiv.org/abs/1703.06587)
+[[Python]](https://github.com/asxzy/paper2vec-gensim)
+dataset (Cora)
 
 **Glove**
-[global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719),
+[Glove: global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719),
 
 [[Python]](https://github.com/jroakes/glove-to-word2vec)
 
@@ -74,7 +79,7 @@ dataset
 
 **TADW**
 
-[Network Representation Learning with Rich Text Information](http://dl.acm.org/citation.cfm?id=2832542), 
+[TADW: Network Representation Learning with Rich Text Information](http://dl.acm.org/citation.cfm?id=2832542), 
 
 [[paper]](https://www.ijcai.org/Proceedings/15/Papers/299.pdf) 
 [[Matlab]](https://github.com/thunlp/tadw),
