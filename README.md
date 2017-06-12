@@ -1,4 +1,4 @@
-# Evaluation-framework-for-graph-embeddings
+# Evaluation-Framework-For-Graph-Embeddings
 
                                    Deep Neural Networks Based Approaches for Graph Embeddings
 
@@ -13,7 +13,7 @@
 
 [DeepWalk: Online Learning of Social Representations](http://dl.acm.org/citation.cfm?id=2623732), KDD'14
 
-[[arxiv]](https://arxiv.org/abs/1403.6652) [[Python]](https://github.com/phanein/deepwalk)
+[[arxiv]](https://arxiv.org/abs/1403.6652) [[Python]](https://github.com/phanein/deepwalk) [[Python]](https://github.com/PFE-Passau/Graph_Embeddings)
 
 **LINE**
 
