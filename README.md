@@ -22,7 +22,7 @@
 [[Python]](https://github.com/apple2373/node2vec) 
 [[Python]](https://github.com/PFE-Passau/Graph_Embeddings),
 
-datasets(Cora,Zachary’s Karate Club,BlogCatalog,Wikipedia,PPI)
+datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 
 
 
@@ -32,7 +32,11 @@ datasets(Cora,Zachary’s Karate Club,BlogCatalog,Wikipedia,PPI)
 
 [[arxiv]](https://arxiv.org/abs/1403.6652) 
 [[Python]](https://github.com/phanein/deepwalk)
-[[Python]](https://github.com/PFE-Passau/Graph_Embeddings)
+[[Python]](https://github.com/PFE-Passau/Graph_Embeddings),
+
+datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
+
+
 
 **LINE**
 
@@ -40,13 +44,19 @@ datasets(Cora,Zachary’s Karate Club,BlogCatalog,Wikipedia,PPI)
 
 [[arxiv]](https://arxiv.org/abs/1503.03578)
 [[C++]](https://github.com/tangjianpku/LINE)
-[[Python]](https://github.com/PFE-Passau/Graph_Embeddings)
+[[Python]](https://github.com/PFE-Passau/Graph_Embeddings),
+
+datasets(Cora,  Zachary’s Karate Club,  BlogCatalog,  Wikipedia,  PPI)
 
 **Doc2vec**
 [DistributedRepresentationsofSentencesandDocument](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719),
 
 [[arxiv]](https://arxiv.org/abs/1607.05368)
-[[Python]](https://github.com/PFE-Passau/Doc2Vec)
+[[Python]](https://github.com/PFE-Passau/Doc2Vec),
+dataset (Cora)
+
+**Paper2vec**
+[[Combining Graph and Text Information for Scientiﬁc Paper Representation (https://researchweb.iiit.ac.in/~soumyajit.ganguly/papers/P2v_1.pdf)
 
 **Glove**
 [global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719),
@@ -59,6 +69,7 @@ datasets(Cora,Zachary’s Karate Club,BlogCatalog,Wikipedia,PPI)
 [Grarep: Learning graph representations with global structural information](http://dl.acm.org/citation.cfm?id=2806512), 
 
 [[Matlab]](https://github.com/ShelsonCao/GraRep)
+dataset
 
 
 **TADW**
@@ -66,15 +77,19 @@ datasets(Cora,Zachary’s Karate Club,BlogCatalog,Wikipedia,PPI)
 [Network Representation Learning with Rich Text Information](http://dl.acm.org/citation.cfm?id=2832542), 
 
 [[paper]](https://www.ijcai.org/Proceedings/15/Papers/299.pdf) 
-[[Matlab]](https://github.com/thunlp/tadw)
+[[Matlab]](https://github.com/thunlp/tadw),
+
+Datasets (Cora,  Citeseer,  Wikipedia)
+
 
 **planetoid**
 
 Revisiting Semi-supervised Learning with Graph Embeddings, 
 
 [[arxiv]](https://arxiv.org/abs/1603.08861) 
-[[Python]](https://github.com/kimiyoung/planetoid)
+[[Python]](https://github.com/kimiyoung/planetoid),
 
+Datasets (Cora,  Citeseer,  Wikipedia)
 
 
 **DNGR**
