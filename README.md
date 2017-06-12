@@ -7,7 +7,7 @@
                                                  Supervisor : Jörg Schlötterer
 
 
-# Paper References with the implementation(s)
+# Paper References with the implementation(s) and the dataset(s)
 
 **Node2vec**
 
