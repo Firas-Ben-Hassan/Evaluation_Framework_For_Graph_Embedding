@@ -1,7 +1,8 @@
-# Evaluation Framework For Graph Embeddings
- 
-                                                       Uni of Passau 
 ![alt text](https://studip.uni-passau.de/studip/plugins_packages/intelec/PassauOpticsPlugin/assets/images/logo_unipassau.svg)
+
+
+# Evaluation Framework For Graph Embeddings
+                                                        
                                    Deep Neural Networks Based Approaches for Graph Embeddings
 
                                                    By : Firas BEN HASSAN 
