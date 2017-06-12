@@ -9,7 +9,11 @@
                                                  Supervisor : Jörg Schlötterer         
                                                  
                                                  
-![alt text](http://blog.convergeforimpact.com/wp-content/uploads/2014/11/nln-network-map.png)                                                                                      
+![alt text](http://blog.convergeforimpact.com/wp-content/uploads/2014/11/nln-network-map.png)      
+
+# Abstract 
+
+Graphs, such as social networks, word co-occurrence networks, and communication networks, occur naturally in various real-world applications. Analyzing them yields insight into the structure of society, language, and different patterns of communication. Many approaches have been proposed to perform the analysis. Recently, methods which use the representation of graph nodes in vector space have gained traction from the research community
                                                                  
 # Paper References with the implementation(s) and the dataset(s)
 
