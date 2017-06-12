@@ -65,7 +65,7 @@ Revisiting Semi-supervised Learning with Graph Embeddings,
 
 [[Matlab]](https://github.com/ShelsonCao/DNGR) [[Python Keras]](https://github.com/MdAsifKhan/DNGR-Keras)
 
-
+**ComplEx**
 [Complex Embeddings for Simple Link Prediction](http://dl.acm.org/citation.cfm?id=3045609),
 
 [[arxiv]](https://arxiv.org/abs/1606.06357) [[Python]](https://github.com/ttrouill/complex)
