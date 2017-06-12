@@ -30,7 +30,7 @@
 
 **Doc2vec**
 [DistributedRepresentationsofSentencesandDocument](http://dl.acm.org/citation.cfm?id=3053062&CFID=772667669&CFTOKEN=64514719),
-[[arxiv]] (https://arxiv.org/abs/1607.05368) [[Python]](https://github.com/PFE-Passau/Doc2Vec)
+[arxiv](https://arxiv.org/abs/1607.05368) [[Python]](https://github.com/PFE-Passau/Doc2Vec)
 
 **Glove**
 [global vectors for word representation](http://dl.acm.org/citation.cfm?id=2889381&CFID=772667669&CFTOKEN=64514719),
