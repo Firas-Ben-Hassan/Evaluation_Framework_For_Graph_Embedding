@@ -33,7 +33,7 @@ Network Compression :
  For a graph G, they deﬁned a compression another graph GG  which has smaller number of edges. The goal was to store the network more efﬁciently and run graph analysis algorithms faster. They obtained the compression graph by partitioning the original graph into bipartite cliques and replacing them by trees, thus reducing the number of edges.
  
  
- # 3-Tasks 
+ # 3-Datasets 
  
  Social Networks Datasets : 
  
