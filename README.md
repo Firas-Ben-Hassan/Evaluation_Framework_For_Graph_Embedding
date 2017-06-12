@@ -53,7 +53,7 @@ LiveJournal is a free on-line blogging community where users declare friendship 
 
 Collaboration Networks Datasets : 
 
-Cora:
+-Cora:
 
 The Cora dataset consists of Machine Learning papers
  The papers were selected in a way such that in the final corpus every paper cites or is cited by at least one other paper. There are 2708 papers in the whole corpus. 
