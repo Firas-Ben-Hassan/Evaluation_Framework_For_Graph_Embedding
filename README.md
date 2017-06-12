@@ -182,12 +182,7 @@ Datasets (Cora,  Citeseer,  Wikipedia)
 
 
 
-**GEM**
 
-Graph Embedding Techniques, Applications, and Performance: A Survey
-
-[[arxiv]](https://arxiv.org/abs/1705.02801) 
-[[MIX]](https://github.com/palash1992/GEM)
 
 
 
