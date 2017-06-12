@@ -9,7 +9,7 @@
 
 # Paper References with the implementation(s)
 
-**node2vec**
+**Node2vec**
 
 [node2vec: Scalable Feature Learning for Networks](http://dl.acm.org/citation.cfm?id=2939672.2939754), KDD'16
 
