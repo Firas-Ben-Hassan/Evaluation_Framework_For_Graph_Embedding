@@ -27,11 +27,6 @@ Link Prediction :
 
 Networks are constructed from the observed interactions between entities, which may be incomplete or inaccurate. The challenge often lies in identifying spurious interactions and predicting missing information. Link prediction refers to the task of predicting either missing interactions or links that may appear in the future in an evolving network. 
 
-Network Compression :
-
- Network Compression Feder introduced the concept of network compression (graph simpliﬁcation) :
- For a graph G, they deﬁned a compression another graph GG  which has smaller number of edges. The goal was to store the network more efﬁciently and run graph analysis algorithms faster. They obtained the compression graph by partitioning the original graph into bipartite cliques and replacing them by trees, thus reducing the number of edges.
- 
  
  # 3-Datasets 
  
