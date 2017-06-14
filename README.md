@@ -49,17 +49,6 @@ Social network of friendships between 34 members of a karate club at a US univer
 
 LiveJournal is a free on-line blogging community where users declare friendship each other. LiveJournal also allows users form a group which other members can then join. We consider such user-defined groups as ground-truth communities. We provide the LiveJournal friendship social network and ground-truth communities. 
 
-| Name    | Type | Nodes | Edges|  Link  |
-| --------------|---------|-------|
-| Karate | pasta   | $6    |
-| BlogCatalog3 | chicken | $8    |
-| LiveJournal | chicken | $8    |
-
-| Day     | Meal    | Price |
-| --------|---------|-------|
-| Monday  | pasta   | $6    |
-| Tuesday | chicken | $8    |
-
 Collaboration Networks Datasets : 
 
 -Cora:
