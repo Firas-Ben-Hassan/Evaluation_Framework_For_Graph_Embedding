@@ -49,6 +49,13 @@ Social network of friendships between 34 members of a karate club at a US univer
 
 LiveJournal is a free on-line blogging community where users declare friendship each other. LiveJournal also allows users form a group which other members can then join. We consider such user-defined groups as ground-truth communities. We provide the LiveJournal friendship social network and ground-truth communities. 
 
+| Name        | Type      | Nodes | Edges  | Link |
+| ------------- |:-------------:| --------- |:----------:| -----:|
+| Karate     | Undirected,Unweighted,Static  | 34|78| [Here](https://github.com/tkipf/keras-gcn/tree/master/kegra/data/cora) |
+| BlogCatalog3     | Undirected,Unweighted   |   10312 |333983 | []Here(http://www.blogcatalog.com)  |
+| LiveJournal | Undirected,Unweighted  | 3 997 962  |34681189  | []Here(http://snap.stanford.edu/data/com-LiveJournal.html ) |
+
+
 Collaboration Networks Datasets : 
 
 -Cora:
