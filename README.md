@@ -6,7 +6,10 @@
                                    Deep Neural Networks Based Approaches for Graph Embeddings
 
                                                    By : Firas BEN HASSAN 
-                                                 Supervisor : Jörg Schlötterer         
+                                                        Supervisors : 
+                                                     Mr.Jörg Schlötterer 
+                                                     Mrs.Ferdaous CHAABENE
+                                                      
                                                  
                                                  
 ![alt text](http://blog.convergeforimpact.com/wp-content/uploads/2014/11/nln-network-map.png)      
