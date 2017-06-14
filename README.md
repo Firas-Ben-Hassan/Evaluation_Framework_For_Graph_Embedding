@@ -84,7 +84,9 @@ Biology  Networks Dataset :
 
 This is a network of biological interactions between proteins in humans. This network has 3,890 nodes and 38,739 edges.
 
-
+| Name        | Type      | Nodes | Edges  | Link |
+| ------------- |:-------------:| --------- |:----------:| -----:|
+| **PPI**     | Undirected,Unweighted,  |3890 |38739 | [click here to download](https://thebiogrid.org/) |
 
 
                                                                  
