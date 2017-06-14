@@ -55,6 +55,10 @@ LiveJournal is a free on-line blogging community where users declare friendship 
 | BlogCatalog3 | chicken | $8    |
 | LiveJournal | chicken | $8    |
 
+| Day     | Meal    | Price |
+| --------|---------|-------|
+| Monday  | pasta   | $6    |
+| Tuesday | chicken | $8    |
 
 Collaboration Networks Datasets : 
 
