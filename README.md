@@ -51,9 +51,9 @@ LiveJournal is a free on-line blogging community where users declare friendship 
 
 | Name        | Type      | Nodes | Edges  | Link |
 | ------------- |:-------------:| --------- |:----------:| -----:|
-| Karate     | Undirected,Unweighted,Static  | 34|78| [Here](https://github.com/tkipf/keras-gcn/tree/master/kegra/data/cora) |
-| BlogCatalog3     | Undirected,Unweighted   |   10312 |333983 | []Here(http://www.blogcatalog.com)  |
-| LiveJournal | Undirected,Unweighted  | 3 997 962  |34681189  | []Here(http://snap.stanford.edu/data/com-LiveJournal.html ) |
+| Karate     | Undirected,Unweighted,Static  | 34|78| [click here to download](https://github.com/tkipf/kerasgcn/tree/master/kegra/data/cora) |
+| BlogCatalog3     | Undirected,Unweighted   |   10312 |333983 | [click here to download](http://www.blogcatalog.com)  |
+| LiveJournal | Undirected,Unweighted  | 3 997 962  |34681189  | [click here to download](http://snap.stanford.edu/data/com-LiveJournal.html ) |
 
 
 Collaboration Networks Datasets : 
