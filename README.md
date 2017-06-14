@@ -71,6 +71,12 @@ Wiki contains 2, 405 documents from 19 classes and 17, 981 links between them.
 
 Citeseer contains 3, 312 publications from six classes and 4, 732 links between them. Similar to Cora, the links are citation relationships between the documents and each paper is described by a binary vector of 3, 703 dimensions. 
 
+| Name        | Type      | Nodes | Edges  | Link |
+| ------------- |:-------------:| --------- |:----------:| -----:|
+| **Cora**     | Undirected,Unweighted,  | 2708 |5429 | [click here to download](www.research.whizbang.com/data ) |
+| **Wiki**     | Undirected,Unweighted   |  2405   | 17981 | [click here to download](https://github.com/albertyang33/TADW )  |
+| **Citeseer** | Undirected,Unweighted  | 3312  |4732  | [click here to download](https://github.com/albertyang33/TADW) |
+
 Biology  Networks Dataset : 
 
 
