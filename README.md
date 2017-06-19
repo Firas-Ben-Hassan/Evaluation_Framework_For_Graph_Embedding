@@ -194,6 +194,16 @@ Datasets (Cora,  Citeseer,  Wikipedia)
 [[Datasets]](https://github.com/ttrouill/complex/tree/master/datasets)
 
 
+# 5- Evaluation Framework for Graph Embeddings Approaches 
+
+The rationale behind our framework is to provide developers, end users and researchers with easy-to-use interfaces that allow for the agile, ﬁne-grained and uniform evaluation of graph embeddings appraoches on multiple tasks and on multiple datasets.
+
+By these means, we aim to ensure that both tool developers and end users can derive meaningful insights pertaining to the extension, integration and use of graph embeddings algorithms.
+
+
+In particular, the evaluation framework  provides comparable results to tool developers so as to allow them to easily discover the strengths and weaknesses of their implementations with respect to the state of the art and it allows deriving insights pertaining to the areas in which tools should be further reﬁned, thus allowing developers to create an informed agenda for extensions and end users to detect the right tools for their purposes.
+
+The evaluation framework  is an open-source and extensible framework that allows evaluating tools against (currently) 11 diﬀerent approaches on 2 diﬀerent tasks with 7 different  datasets.
 
 
 
