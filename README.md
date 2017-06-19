@@ -196,6 +196,8 @@ Datasets (Cora,  Citeseer,  Wikipedia)
 
 # 5- Evaluation Framework for Graph Embeddings Approaches 
 
+![alt text](https://www.google.de/search?q=evaluation+framework&source=lnms&tbm=isch&sa=X&ved=0ahUKEwj8kdPc48nUAhVBbhQKHWWSDC8Q_AUIBigB&biw=1600&bih=745#tbm=isch&q=strengths+vs+weaknesses&imgrc=ysi1PXRSIzgpnM:)    
+
 The rationale behind our framework is to provide developers, end users and researchers with easy-to-use interfaces that allow for the agile, ﬁne-grained and uniform evaluation of graph embeddings appraoches on multiple tasks and on multiple datasets.
 
 By these means, we aim to ensure that both tool developers and end users can derive meaningful insights pertaining to the extension, integration and use of graph embeddings algorithms.
