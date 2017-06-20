@@ -198,6 +198,8 @@ Datasets (Cora,  Citeseer,  Wikipedia)
 
 ![alt text](http://www.kennedypearce.com/wp-content/uploads/2015/08/strengths-weaknesses-sized.jpg)    
 
+**Requirement specification**
+
 The rationale behind our framework is to provide developers, end users and researchers with easy-to-use interfaces that allow for the agile, ﬁne-grained and uniform evaluation of graph embeddings appraoches on multiple tasks and on multiple datasets.
 
 By these means, we aim to ensure that both tool developers and end users can derive meaningful insights pertaining to the extension, integration and use of graph embeddings algorithms.
@@ -207,6 +209,7 @@ In particular, the evaluation framework  provides comparable results to tool dev
 
 The evaluation framework  is an open-source and extensible framework that allows evaluating tools against (currently) 11 diﬀerent approaches on 2 diﬀerent tasks with 7 different  datasets.
 
+**Functional specification**
 
 
 
