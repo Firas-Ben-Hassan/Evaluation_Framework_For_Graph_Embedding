@@ -210,6 +210,11 @@ In particular, the evaluation framework  provides comparable results to tool dev
 The evaluation framework should be an open-source and extensible framework that allows evaluating tools against 11 diﬀerent approaches on 2 diﬀerent tasks with 7 different  datasets.
 
 **Functional specification**
+Architecture Overview : 
+
+
+
+
 
 
 
