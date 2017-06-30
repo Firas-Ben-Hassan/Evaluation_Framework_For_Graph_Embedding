@@ -6,6 +6,11 @@ from sklearn.svm import LinearSVC
 from gensim.models import doc2vec
 from collections import namedtuple
 from gensim.models.doc2vec import TaggedDocument
+import cPickle
+import lasagne
+import cPickle
+import random
+     
 
 
 def discard_edges(nx_graph, p):
@@ -167,12 +172,7 @@ if __name__ == '__main__':
         elif select == "5":   
             
 
-            import cPickle
-
-            import lasagne
-            import cPickle
-            import random
-            import numpy as np
+            
 
             class base_model(object):
     """the base model for both transductive and inductive learning."""
