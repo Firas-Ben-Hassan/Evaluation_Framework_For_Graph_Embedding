@@ -33,7 +33,7 @@ def read_graph():
 
     if is_undirected == "Y":
         nx_graph = nx_graph.to_undirected()
-  
+        
     return nx_graph
 
 
