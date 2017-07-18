@@ -81,7 +81,7 @@ if __name__ == '__main__':
 					# Glove
 			elif select == "7" : 
 			        import approach7
-					emb == approach7.run() 
+				emb == approach7.run() 
 					
 					
 					
