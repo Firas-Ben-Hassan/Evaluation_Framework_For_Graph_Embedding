@@ -1,66 +1,60 @@
-# -*- coding: utf-8 -*-
-"""
-word2vec embeddings start with a line with the number of lines (tokens?) and 
-the number of dimensions of the file. This allows gensim to allocate memory 
-accordingly for querying the model. Larger dimensions mean larger memory is 
-held captive. Accordingly, this line has to be inserted into the GloVe 
-embeddings file.
-"""
+from sklearn.svm import LinearSVC
+from gensim.models import doc2vec
+from collections import namedtuple
+from gensim.models.doc2vec import TaggedDocument
+from sklearn.metrics import accuracy_score
+import numpy as np 
+import pandas as pd
+from sklearn.model_selection import train_test_split
 
-import os
-import shutil
-import smart_open
-from sys import platform
+# Load data
+X = []
+Doc_ID =[]
+docs = []
+label={}
+y =[]
 
-import gensim
-
-
-def prepend_line(infile, outfile, line):
-	""" 
-	Function use to prepend lines using bash utilities in Linux. 
-	(source: http://stackoverflow.com/a/10850588/610569)
-	"""
-	with open(infile, 'r') as old:
-		with open(outfile, 'w') as new:
-			new.write(str(line) + "\n")
-			shutil.copyfileobj(old, new)
-
-def prepend_slow(infile, outfile, line):
-	"""
-	Slower way to prepend the line by re-creating the inputfile.
-	"""
-	with open(infile, 'r') as fin:
-		with open(outfile, 'w') as fout:
-			fout.write(line + "\n")
-			for line in fin:
-				fout.write(line)
-
-def get_lines(glove_file_name):
-    """Return the number of vectors and dimensions in a file in GloVe format."""
-    with smart_open.smart_open(glove_file_name, 'r') as f:
-        num_lines = sum(1 for line in f)
-    with smart_open.smart_open(glove_file_name, 'r') as f:
-        num_dims = len(f.readline().split()) - 1
-    return num_lines, num_dims
+def run():
+    path = input("Enter dataset path: ")
 	
-# Input: GloVe Model File
-# More models can be downloaded from http://nlp.stanford.edu/projects/glove/
-glove_file="glove.6B.300d.txt"
+	
+	 size = float(input("Enter Vector size : "))
+	 window = float(input("Enter Window size: "))
+	 min_count = float(input("Enter min_count parameter : "))
+	 negative = float(input("Enter negative sample parameter: "))
+	 
+    with open(path) as f:
+		for line in f.readlines():
+			line = line.split()
+			label[line[0]] = line[-1]
+			words=np.array(line[1:-1])
+			tags = line[0]
+			occ = np.where(words == '1')
+			occ = [str(x) for x in occ[0]]
+			docs.append(TaggedDocument(occ, [tags]))
+			Doc_ID.append(line[0])  
+			
+			
+	# Building the model for Doc2Vec   
 
-num_lines, dims = get_lines(glove_file)
+	model = doc2vec.Doc2Vec(docs, size = size, dm = 0,  window = window , min_count = min_count , workers = 4, iter = 10, negative = negative )       
+	# Getting the embeddings 
+	for document_id in Doc_ID:
+		X.append(model.docvecs[document_id])
+		y.append(label[document_id])    
+			
+			
+	#print(model.docvecs[2707])       
+			 
 
-# Output: Gensim Model text format.
-gensim_file='glove_model2.txt'
-gensim_first_line = "{} {}".format(num_lines, dims)
+	#    SVM Classifier                  
 
-# Prepends the line.
-if platform == "linux" or platform == "linux2":
-	prepend_line(glove_file, gensim_file, gensim_first_line)
-else:
-	prepend_slow(glove_file, gensim_file, gensim_first_line)
+	X_train, X_test, y_train , y_test = train_test_split( X, y,test_size=0.7, random_state=0)
 
-# Demo: Loads the newly created glove_model.txt into gensim API.
-model=gensim.models.Word2Vec.load_word2vec_format(gensim_file,binary=False) #GloVe Model
 
-print model.most_similar(positive=['australia'], topn=10)
-print model.similarity('woman', 'man')
+	clf =LinearSVC()
+	clf.fit(X_train, y_train)
+	predicted = clf.predict(X_test)
+
+	print (predicted)
+	print("Doc2Vec====> Success")
