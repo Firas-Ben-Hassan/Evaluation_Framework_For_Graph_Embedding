@@ -41,5 +41,5 @@ def evaluateStaticLinkPrediction(digraph, graph_embedding,
     filtered_edge_list = [e for e in predicted_edge_list if not train_digraph.has_edge(e[0], e[1])]
 
     MAP = metrics.computeMAP(filtered_edge_list, test_digraph)
-    prec_curv, _ = metrics.computePrecisionCurve(filtered_edge_list, test_digraph)
-    return (MAP, prec_curv)
+    
+    return (MAP)
