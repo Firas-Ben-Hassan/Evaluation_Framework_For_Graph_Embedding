@@ -1,30 +1,47 @@
-from sklearn import model_selection as sk_ms
-from sklearn.multiclass import OneVsRestClassifier as oneVr
-from sklearn.linear_model import LogisticRegression as lr
+from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.svm import LinearSVC
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.preprocessing import MultiLabelBinarizer
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+import numpy as np 
+import pandas as pd
 from sklearn.metrics import f1_score
 
-class TopKRanker(oneVr):
-    def predict(self, X, top_k_list):
-        assert X.shape[0] == len(top_k_list)
-        probs = np.asarray(super(TopKRanker, self).predict_proba(X))
-        prediction = np.zeros((X.shape[0], self.classes_.shape[0]))
-        for i, k in enumerate(top_k_list):
-            probs_ = probs[i, :]
-            labels = self.classes_[probs_.argsort()[-int(k):]].tolist()
-            for label in labels:
-                prediction[i, label] = 1
-        return prediction
+class run() : 
+    data=[]
+    label={}
+    y =[]
 
-def evaluateNodeClassification(X, Y, test_ratio):
-    X_train, X_test, Y_train, Y_test = sk_ms.train_test_split(X, Y, test_size=test_ratio)
-    try:
-        top_k_list = list(Y_test.toarray().sum(axis=1))
-    except:
-        top_k_list = list(Y_test.sum(axis=1))
-    classif2 = TopKRanker(lr())
-    classif2.fit(X_train, Y_train)        
-    prediction = classif2.predict(X_test, top_k_list)
-    micro = f1_score(Y_test, prediction, average='micro')
-    macro = f1_score(Y_test, prediction, average='macro')
-    return (micro, macro)
+    with open("C:/Users/asus/Documents/GitHub/graph_embeddings/firas.csv") as f:
+        for line in  f.readlines():
+            line = line.split()
+            data.append([float(x) for x in line[1:]])
+
+    with open("C:/Users/asus/Documents/GitHub/graph_embeddings/cora/cora.content") as f:
+        for line in f.readlines(): 
+            line = line.split()
+            label[int(line [0])] = line[-1]
+
+    with open("C:/Users/asus/Documents/GitHub/graph_embeddings/firas.csv") as f:
+        for line in f.readlines():
+            line = line.split()
+            y.append(label[int(line[0])])
+
+    X_train, X_test, y_train , y_test = train_test_split( data, y,test_size=0.8, random_state=0)
+
+    #train_test_split?
+
+
+    clf =LinearSVC()
+    clf.fit(X_train, y_train)
+    predicted = clf.predict(X_test)
+    micro = f1_score(y_test, predicted, average='micro')
+    macro = f1_score(y_test, predicted, average='macro')
+    
+    accuracy_score = accuracy_score(y_test, predicted)
+    print (micro , macro, accuracy_score)
+           
+    
+    
+    
