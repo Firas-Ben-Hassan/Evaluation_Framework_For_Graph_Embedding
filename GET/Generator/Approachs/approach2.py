@@ -20,7 +20,7 @@ def discard_edges(nx_graph, p):
 
 def read_graph():
 
-    edgelist_file = input("Enter graph edgelist filename: ")
+    edgelist_file = input("Enter graph edgelist filename again: ")
     is_unweighted = input("Unweighted graph (Y/N): ")
     is_undirected = input("Undirected graph (Y/N): ")
 
