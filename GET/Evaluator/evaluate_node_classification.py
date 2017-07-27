@@ -13,17 +13,17 @@ class run() :
     label={}
     y =[]
 
-    with open("C:/Users/asus/Documents/GitHub/graph_embeddings/firas.csv") as f:
+    with open("C:/Users/asus/Documents/GitHub/Evaluation_Framework_For_Graph_Embeddings/GET/Evaluator/embeddings") as f:
         for line in  f.readlines():
             line = line.split()
             data.append([float(x) for x in line[1:]])
 
-    with open("C:/Users/asus/Documents/GitHub/graph_embeddings/cora/cora.content") as f:
+    with open("C:/Users/asus/Documents/GitHub/Evaluation_Framework_For_Graph_Embeddings/GET/Generator/Datasets/cora.content") as f:
         for line in f.readlines(): 
             line = line.split()
             label[int(line [0])] = line[-1]
 
-    with open("C:/Users/asus/Documents/GitHub/graph_embeddings/firas.csv") as f:
+    with open("C:/Users/asus/Documents/GitHub/Evaluation_Framework_For_Graph_Embeddings/GET/Evaluator/embeddings") as f:
         for line in f.readlines():
             line = line.split()
             y.append(label[int(line[0])])
@@ -41,7 +41,3 @@ class run() :
     
     accuracy_score = accuracy_score(y_test, predicted)
     print (micro , macro, accuracy_score)
-           
-    
-    
-    
