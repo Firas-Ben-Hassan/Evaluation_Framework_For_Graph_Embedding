@@ -16,12 +16,10 @@ y =[]
 
 def run():
     path = input("Enter dataset path: ")
-	
-	
-	 size = float(input("Enter Vector size : "))
-	 window = float(input("Enter Window size: "))
-	 min_count = float(input("Enter min_count parameter : "))
-	 negative = float(input("Enter negative sample parameter: "))
+    size = float(input("Enter Vector size : "))
+    window = float(input("Enter Window size: "))
+    min_count = float(input("Enter min_count parameter : "))
+    negative = float(input("Enter negative sample parameter: "))
 	 
     with open(path) as f:
 		for line in f.readlines():
