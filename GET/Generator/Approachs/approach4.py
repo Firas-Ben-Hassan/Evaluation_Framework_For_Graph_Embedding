@@ -1,25 +1,3 @@
-Skip to content
-This repository
-Search
-Pull requests
-Issues
-Marketplace
-Gist
- @PFE-Passau
- Sign out
- Watch 1
-  Star 5
-  Fork 4 MdAsifKhan/DNGR-Keras
- Code  Issues 0  Pull requests 0  Projects 0  Wiki Insights 
-Branch: master Find file Copy pathDNGR-Keras/DNGR.py
-f90ccf7  on 20 Jan
-@MdAsifKhan MdAsifKhan Update DNGR.py
-1 contributor
-RawBlameHistory     
-162 lines (123 sloc)  4.81 KB
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 from keras.layers import Input, Dense, noise
 from keras.models import Model
 from keras import regularizers
@@ -178,5 +156,4 @@ def main():
 if __name__ == '__main__':
 	sys.exit(main())	
 	
-Contact GitHub API Training Shop Blog About
-© 2017 GitHub, Inc. Terms Privacy Security Status Help
+
