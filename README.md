@@ -1,7 +1,7 @@
-![alt text](https://studip.uni-passau.de/studip/plugins_packages/intelec/PassauOpticsPlugin/assets/images/logo_unipassau.svg)
+![alt text](https://scontent-frx5-1.xx.fbcdn.net/v/t35.0-12/20747837_1590497760985039_412508452_o.png?oh=20a985469604c625d0cbe9596b8b5a5e&oe=598D4F36)
 
 
-# Evaluation Framework For Graph Embeddings
+# GEVI : Graph Embedding Visual Inspector 
                                                         
                                    Deep Neural Networks Based Approaches for Graph Embeddings
 
