@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: glove-python
+Version: 0.1.0
+Summary: Python implementation of Global Vectors for Word Representation (GloVe)
+Home-page: https://github.com/maciejkula/glove-python
+Author: Maciej Kula
+Author-email: UNKNOWN
+License: Apache 2.0
+Download-URL: https://github.com/maciejkula/glove-python/tarball/0.1.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
